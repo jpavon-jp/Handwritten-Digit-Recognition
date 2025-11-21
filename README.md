@@ -75,6 +75,6 @@ The model was trained for 15 epochs with a batch size of 128.
 
 ---
 
-## ⚠️ Context
+## Context
 Developed as the Final Project for the **Machine Learning Systems & Applications (MLSS)** course (SS25) at the University of Europe for Applied Sciences.
 **Author:** Josue David Pavon Maldonado
