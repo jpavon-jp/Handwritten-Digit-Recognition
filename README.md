@@ -2,7 +2,7 @@
 
 A Deep Learning project that implements a **Convolutional Neural Network (CNN)** to classify handwritten digits (0-9) using the MNIST dataset. The model achieves a remarkable **99.24% accuracy** on the test set, leveraging advanced computer vision techniques and regularization strategies.
 
-📄 **[Read the Final Project Report](./SS25___MLSS_A___Josue_Pavon___Handwritten_Digit_Recognition___Final_Project.pdf)**
+📄 **[Read the Project Report](./Handwritten_Digit_Recognition.pdf)**
 
 ---
 
@@ -10,9 +10,9 @@ A Deep Learning project that implements a **Convolutional Neural Network (CNN)**
 The goal was to build a robust image classifier capable of recognizing handwritten digits with high precision. Unlike traditional machine learning models, this project utilizes a **Deep Learning** architecture (CNN) to automatically extract spatial hierarchies of features from the images.
 
 **Key Achievements:**
-* [cite_start]Achieved **99.24% Accuracy** on unseen test data.
-* [cite_start]Minimized Test Loss to **0.0235**.
-* [cite_start]Implemented **Dropout (0.5)** to effectively prevent overfitting[cite: 50].
+* Achieved **99.24% Accuracy** on unseen test data.
+* Minimized Test Loss to **0.0235**.
+* Implemented **Dropout (0.5)** to effectively prevent overfitting.
 
 ---
 
@@ -20,23 +20,23 @@ The goal was to build a robust image classifier capable of recognizing handwritt
 
 The model follows a Sequential architecture optimized for image classification:
 
-1.  [cite_start]**Conv2D (32 filters):** Feature extraction with ReLU activation[cite: 49].
-2.  [cite_start]**MaxPooling2D (2x2):** Dimensionality reduction[cite: 50].
-3.  [cite_start]**Conv2D (64 filters):** Deeper feature extraction[cite: 50].
-4.  [cite_start]**MaxPooling2D (2x2):** Further reduction[cite: 50].
-5.  [cite_start]**Flatten:** Converting 2D maps to 1D vectors[cite: 50].
-6.  [cite_start]**Dropout (0.5):** Regularization to prevent overfitting[cite: 50].
-7.  [cite_start]**Dense (10 units):** Output layer with **Softmax** activation for classification[cite: 51].
+1.  **Conv2D (32 filters):** Feature extraction with ReLU activation.
+2.  **MaxPooling2D (2x2):** Dimensionality reduction.
+3.  **Conv2D (64 filters):** Deeper feature extraction.
+4.  **MaxPooling2D (2x2):** Further reduction.
+5.  **Flatten:** Converting 2D maps to 1D vectors.
+6.  **Dropout (0.5):** Regularization to prevent overfitting.
+7.  **Dense (10 units):** Output layer with **Softmax** activation for classification.
 
-* [cite_start]**Total Parameters:** 34,826[cite: 140].
-* [cite_start]**Optimizer:** Adam[cite: 57].
-* [cite_start]**Loss Function:** Categorical Crossentropy[cite: 58].
+* **Total Parameters:** 34,826.
+* **Optimizer:** Adam.
+* **Loss Function:** Categorical Crossentropy.
 
 ---
 
 ## 📊 Performance & Evaluation
 
-[cite_start]The model was trained for 15 epochs with a batch size of 128[cite: 59].
+The model was trained for 15 epochs with a batch size of 128.
 
 | Metric | Value |
 | :--- | :--- |
@@ -64,7 +64,7 @@ The model follows a Sequential architecture optimized for image classification:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/jpavon-jp/Handwritten-Digit-Recognition-CNN-99Acc.git](https://github.com/jpavon-jp/Handwritten-Digit-Recognition-CNN-99Acc.git)
+    git clone [https://github.com/jpavon-jp/Handwritten-Digit-Recognition.git](https://github.com/jpavon-jp/Handwritten-Digit-Recognition.git)
     ```
 2.  **Install dependencies:**
     ```bash
